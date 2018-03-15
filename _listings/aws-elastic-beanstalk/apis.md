@@ -31,7 +31,7 @@ apis:
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/environments/master/_listings/aws-elastic-beanstalk/action-applyenvironmentmanagedaction-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/environments/master/_listings/aws-elastic-beanstalk/action-composeenvironments-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
