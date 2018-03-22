@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListCuratedEnvironmentImages&k=1:
+  /?Action=ListCuratedEnvironmentImages:
     get:
       summary: ' List Curated Environment Images '
       description: Gets information about Docker images that are managed by AWS CodeBuild
