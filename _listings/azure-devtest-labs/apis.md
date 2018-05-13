@@ -26,7 +26,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-environments-name-delete.md
+- name: Azure DevTest Labs API Environments List
+  description: List environments in a given user profile.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
+  humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
+  baseURL: http:://management.azure.com//
+  tags: Environments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-environments-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-environments-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/devtest-lab/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/devtest-lab/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/devtest-lab/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/devtest-lab/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
 - type: x-pricing
