@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Update Environment
   version: 1.0.0
+  description: |-
+    Updates the environment description, deploys a new application version, updates the
+          configuration settings to an entirely new configuration template, or updates select
+          configuration option values in the running environment.
 schemes:
 - http
 produces:
