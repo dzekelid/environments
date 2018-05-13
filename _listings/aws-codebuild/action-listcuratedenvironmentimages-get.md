@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeBuild API
+  title: AWS CodeBuild API List Curated Environment Images
   version: 1.0.0
+  description: Gets information about Docker images that are managed by AWS CodeBuild.
 schemes:
 - http
 produces:
