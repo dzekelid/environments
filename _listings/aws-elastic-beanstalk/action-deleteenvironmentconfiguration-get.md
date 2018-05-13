@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Delete Environment Configuration
   version: 1.0.0
+  description: Deletes the draft configuration associated with the running environment.
 schemes:
 - http
 produces:
