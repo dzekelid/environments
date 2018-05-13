@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Create Environment
   version: 1.0.0
+  description: |-
+    Launches an environment for the specified application using the specified
+          configuration.
 schemes:
 - http
 produces:
