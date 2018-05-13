@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Swap Environment C N A M Es
   version: 1.0.0
+  description: Swaps the CNAMEs of two environments.
 schemes:
 - http
 produces:
