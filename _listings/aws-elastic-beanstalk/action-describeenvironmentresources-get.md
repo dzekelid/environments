@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Describe Environment Resources
   version: 1.0.0
+  description: Returns AWS resources for this environment.
 schemes:
 - http
 produces:
