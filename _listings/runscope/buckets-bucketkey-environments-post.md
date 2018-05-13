@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Add Buckets Environments
+  description: Create new shared environment.
   version: 1.0.0
 host: api.runscope.com
 basePath: /
