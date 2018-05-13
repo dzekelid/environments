@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Get Buckets Tests Environments
+  description: Return details of the test's environments (only those that belong to
+    the specified test)
   version: 1.0.0
 host: api.runscope.com
 basePath: /
