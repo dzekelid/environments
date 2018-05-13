@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-updateenvironment-get.md
-- name: AWS Elastic Beanstalk API Delete Environment Configuration
-  description: Deletes the draft configuration associated with the running environment.
+- name: AWS Elastic Beanstalk API Describe Environment Health
+  description: Returns information about the overall health of the specified environment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
   humanURL: https://aws.amazon.com/elasticbeanstalk/
   baseURL: http:://{host}//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-deleteenvironmentconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-describeenvironmenthealth-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
