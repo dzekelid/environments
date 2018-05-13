@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-environmentid-put.md
-- name: Runscope Get Buckets Environments
-  description: Returns list of shared environments for a specified bucket.
+- name: Runscope Add Buckets Environments
+  description: Create new shared environment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-environments-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-environments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-environments-post.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
