@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Describe Environment Health
   version: 1.0.0
+  description: Returns information about the overall health of the specified environment.
 schemes:
 - http
 produces:
