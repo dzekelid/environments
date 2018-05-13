@@ -32,17 +32,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-updateenvironment-get.md
-- name: AWS Elastic Beanstalk API Compose Environments
+- name: AWS Elastic Beanstalk API Create Environment
   description: |-
-    Create or update a group of environments that each run a separate component of a single
-          application.
+    Launches an environment for the specified application using the specified
+          configuration.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
   humanURL: https://aws.amazon.com/elasticbeanstalk/
   baseURL: http:://{host}//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-composeenvironments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-createenvironment-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
