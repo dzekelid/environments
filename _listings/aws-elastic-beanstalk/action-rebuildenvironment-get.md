@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Rebuild Environment
   version: 1.0.0
+  description: |-
+    Deletes and recreates all of the AWS resources (for example: the Auto Scaling group,
+          load balancer, etc.
 schemes:
 - http
 produces:
