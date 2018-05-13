@@ -43,17 +43,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-rebuildenvironment-get.md
-- name: AWS Elastic Beanstalk API Request Environment Info
-  description: |-
-    Initiates a request to compile the specified type of information of the deployed
-          environment.
+- name: AWS Elastic Beanstalk API Retrieve Environment Info
+  description: Retrieves the compiled information from a.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
   humanURL: https://aws.amazon.com/elasticbeanstalk/
   baseURL: http:://{host}//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-requestenvironmentinfo-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-retrieveenvironmentinfo-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
