@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Abort Environment Update
   version: 1.0.0
+  description: |-
+    Cancels in-progress environment configuration update or application version
+          deployment.
 schemes:
 - http
 produces:
