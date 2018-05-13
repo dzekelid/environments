@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Compose Environments
   version: 1.0.0
+  description: |-
+    Create or update a group of environments that each run a separate component of a single
+          application.
 schemes:
 - http
 produces:
