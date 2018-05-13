@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Request Environment Info
   version: 1.0.0
+  description: |-
+    Initiates a request to compile the specified type of information of the deployed
+          environment.
 schemes:
 - http
 produces:
