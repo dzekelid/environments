@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Retrieve Environment Info
   version: 1.0.0
+  description: Retrieves the compiled information from a.
 schemes:
 - http
 produces:
