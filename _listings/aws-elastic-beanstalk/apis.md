@@ -32,17 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-updateenvironment-get.md
-- name: AWS Elastic Beanstalk API Abort Environment Update
-  description: |-
-    Cancels in-progress environment configuration update or application version
-          deployment.
+- name: AWS Elastic Beanstalk API Apply Environment Managed Action
+  description: Applies a scheduled managed action immediately.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
   humanURL: https://aws.amazon.com/elasticbeanstalk/
   baseURL: http:://{host}//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-abortenvironmentupdate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-applyenvironmentmanagedaction-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
