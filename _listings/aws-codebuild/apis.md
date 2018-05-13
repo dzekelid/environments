@@ -31,7 +31,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-codebuild/action-listcuratedenvironmentimages-get.md
+- name: AWS CodeBuild API List Curated Environment Images
+  description: Gets information about Docker images that are managed by AWS CodeBuild.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: http:://{host}//
+  tags: Environments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-codebuild/action-listcuratedenvironmentimages-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/codebuild/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/codebuild/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/codebuild/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/codebuild/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/codebuild/pricing/
+- type: x-website
+  url: https://aws.amazon.com/codebuild/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codebuild/index.html
 - type: x-documentation
