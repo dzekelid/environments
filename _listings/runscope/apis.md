@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-environmentid-put.md
-- name: Runscope Add Buckets Tests Environments
-  description: Create new test environment.
+- name: Runscope Put Buckets Tests Environments
+  description: Update the details of a test environment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-environmentid-put.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
