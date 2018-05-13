@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Apply Environment Managed Action
   version: 1.0.0
+  description: Applies a scheduled managed action immediately.
 schemes:
 - http
 produces:
