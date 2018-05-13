@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Terminate Environment
   version: 1.0.0
+  description: Terminates the specified environment.
 schemes:
 - http
 produces:
