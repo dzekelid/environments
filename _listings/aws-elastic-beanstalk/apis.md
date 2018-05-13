@@ -32,15 +32,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-updateenvironment-get.md
-- name: AWS Elastic Beanstalk API Terminate Environment
-  description: Terminates the specified environment.
+- name: AWS Elastic Beanstalk API Update Environment
+  description: |-
+    Updates the environment description, deploys a new application version, updates the
+          configuration settings to an entirely new configuration template, or updates select
+          configuration option values in the running environment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
   humanURL: https://aws.amazon.com/elasticbeanstalk/
   baseURL: http:://{host}//
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-terminateenvironment-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/aws-elastic-beanstalk/action-updateenvironment-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
