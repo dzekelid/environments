@@ -5,7 +5,7 @@ description: This is a repository of environments APIs, self-contained as a Gith
   operations.
 image: http://template.streamdata.gallery/assets/environments.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://environments.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -23,8 +23,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/appveyor-ci/apis.yaml
 - name: LaunchDarkly
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/launchdarkly/apis.yaml
-- name: Apigee Edge
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/apigee-edge/apis.yaml
+- name: Apigee
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/environments/master/_listings/apigee/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
